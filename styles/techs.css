@@ -22,7 +22,7 @@
 }
 
 #techs .card {
-  width: 24.5rem;
+  width: 29.9rem;
   height: 27.5rem;
 
   margin: auto;
@@ -56,6 +56,8 @@
   color: var(--dark-text);
   font-size: 1.4rem;
   line-height: 150%;
+  width: 80%;
+  margin: auto;
 }
 
 #techs .flip-cards {
