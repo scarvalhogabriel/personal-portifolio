@@ -1,0 +1,128 @@
+#techs header span {
+  background-color: var(--dark-strong-bg);
+  padding: 1rem 2rem;
+
+  display: inline-block;
+
+  border-radius: 1.6rem;
+
+  color: var(--dark-title);
+  text-transform: uppercase;
+}
+
+#techs .card {
+  width: 24.5rem;
+  height: 27.5rem;
+
+  margin: auto;
+
+  background-color: var(--dark-strong-bg);
+  border: 1.6px solid var(--dark-title);
+  border-radius: 3.6rem;
+}
+
+#techs .card .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 1.6rem 0.6rem;
+}
+
+#techs .card .card-content i {
+  color: var(--dark-title);
+  font-size: 7.6rem;
+}
+
+#techs .card .tech-name {
+  color: var(--dark-text);
+  font-weight: 700;
+}
+#techs .card .card-content p {
+  color: var(--dark-text);
+  font-size: 1.4rem;
+  line-height: 150%;
+}
+
+#techs .flip-cards {
+  display: none;
+}
+
+/* <================= FLIP-CARDS =================> */
+#techs .flip-card {
+  background: transparent;
+
+  width: 24.5rem;
+  height: 24.5rem;
+}
+
+#techs .flip-card-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+#techs .front,
+#techs .back {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 3.6rem;
+  backface-visibility: hidden;
+}
+
+#techs .front .tech,
+#techs .back .tech-description {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.6rem;
+}
+
+#techs .front i {
+  font-size: 10.6rem;
+  color: var(--dark-title);
+}
+
+#techs .front .tech-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--dark-text);
+}
+
+#techs .front,
+#techs .back {
+  background-color: var(--dark-strong-bg);
+  border: 1.6px solid var(--dark-title);
+}
+
+#techs .back {
+  transform: rotateY(180deg);
+}
+
+#techs .back .tech-description {
+  padding-inline: 1.6rem;
+}
+
+#techs .back .tech-description p {
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: var(--dark-text);
+}
+
+#techs .flip-card:hover .flip-card-content {
+  transform: rotateY(180deg);
+}

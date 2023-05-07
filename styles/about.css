@@ -1,0 +1,33 @@
+#about header {
+  padding-top: calc(2.1rem + var(--nav-height));
+}
+
+#about header span {
+  background-color: var(--dark-strong-bg);
+  padding: 1rem 2rem;
+
+  display: inline-block;
+
+  border-radius: 1.6rem;
+
+  color: var(--dark-title);
+  text-transform: uppercase;
+}
+
+#about img {
+  height: 400px;
+  border-radius: 3.6rem;
+
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+#about .about-paragraphs {
+  text-align: left;
+}
+
+#about .about-paragraphs p {
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: var(--dark-text);
+}

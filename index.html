@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio | Gabriel Carvalho</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/page-icon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/techs.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <nav id="navigation">
+      <div class="wrapper">
+        <a class="logo"> <i class="fa-solid fa-user"></i></a>
+
+        <div class="menu">
+          <ul>
+            <li><a onclick="closeMenu()" href="#home">Início</a></li>
+            <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
+            <li><a onclick="closeMenu()" href="#techs">Tecnologias</a></li>
+            <li><a onclick="closeMenu()" href="#projects">Projetos</a></li>
+            <li><a onclick="closeMenu()" href="#contact">Contato</a></li>
+          </ul>
+
+          <ul class="social-links">
+            <li>
+              <a target="_blank" href="https://github.com/scarvalhogabriel">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/gabriel-carvalho-0098b5201/"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/gabriel.carvalho.37669"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button
+          onclick="openMenu()"
+          aria-expanded="false"
+          aria-label="Abrir Menu"
+          class="open-menu"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 20H30"
+              stroke="#92e3a9"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10 12H30"
+              stroke="#92e3a9"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18 28L30 28"
+              stroke="#92e3a9"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+
+        <button
+          onclick="closeMenu()"
+          aria-expanded="true"
+          aria-label="Fechar Menu"
+          class="close-menu"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 10L10 30M10 10L30 30"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="wrapper">
+        <header>
+          <span>Olá! Seja bem vindo! 👋</span>
+          <h1>Gabriel Carvalho</h1>
+          <p>Front-end Web Developer</p>
+
+          <button>
+            <i class="fa-brands fa-whatsapp"></i> Entre em contato
+          </button>
+        </header>
+
+        <img src="./assets/coding_img.png" alt="hands coding" />
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrapper">
+        <header>
+          <span>Sobre mim 📃</span>
+        </header>
+
+        <div class="section_content">
+          <img
+            src="./assets/profile_img.jpg"
+            alt="Gabriel Carvalho's profile picture"
+          />
+
+          <div class="about-paragraphs">
+            <p>
+              Apaixonado por tecnologia, descobri o mundo da programação
+              enquanto cursava o último período de Engenharia Civil.
+            </p>
+
+            <p>
+              Ao longo da minha vida profissional/ acadêmica, tive a
+              oportunidade de desenvolver habilidades como trabalho em equipe,
+              comunicação assertiva, adaptabilidade, gerenciamento de tempo e
+              gestão de processos.
+            </p>
+
+            <p>
+              Atualmente venho me dedicando a desenvolver habilidades técnicas
+              relacionadas com área de Front-End, utilizando as principais
+              tecnologias necessárias, HTML, CSS, JavaScript e React.
+            </p>
+
+            <p>
+              Sempre em busca de constante evolução, venho praticando e me
+              desenvolvendo, em busca da minha primeira oportunidade na área.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="techs">
+      <div class="wrapper">
+        <header>
+          <span>Tecnologias 🧠</span>
+        </header>
+
+        <div class="cards">
+          <div class="card">
+            <div class="card-content">
+              <i class="fa-brands fa-html5"></i>
+
+              <div class="tech-name">HTML5</div>
+
+              <p>
+                HTML (Linguagem de Marcação de HiperTexto) é o bloco de
+                construção mais básico da web. Define o significado e a
+                estrutura do conteúdo da web.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <i class="fa-brands fa-css3-alt"></i>
+
+              <div class="tech-name">CSS3</div>
+
+              <p>
+                CSS (Cascading Style Sheets) é uma linguagem de estilo usada
+                para descrever a apresentação de um documento escrito em HTML ou
+                em XML.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <i class="fa-brands fa-square-js"></i>
+
+              <div class="tech-name">JavaScript</div>
+
+              <p>
+                O JavaScript é uma linguagem baseada em protótipos,
+                multi-paradigma e dinâmica, suportando estilos de orientação a
+                objetos, imperativos e declarativos.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <i class="fa-brands fa-react"></i>
+
+              <div class="tech-name">React</div>
+
+              <p>
+                React é uma biblioteca front-end JavaScript de código aberto com
+                foco em criar interfaces de usuário em páginas web. Popular por
+                ser fácil de usar, altamente flexível e escalável.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-cards">
+          <div class="flip-card">
+            <div class="flip-card-content">
+              <div class="front">
+                <div class="tech">
+                  <i class="fa-brands fa-html5"></i>
+
+                  <div class="tech-name">HTML5</div>
+                </div>
+              </div>
+
+              <div class="back">
+                <div class="tech-description">
+                  <p>
+                    HTML (Linguagem de Marcação de HiperTexto) é o bloco de
+                    construção mais básico da web. Define o significado e a
+                    estrutura do conteúdo da web.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-content">
+              <div class="front">
+                <div class="tech">
+                  <i class="fa-brands fa-css3-alt"></i>
+
+                  <div class="tech-name">CSS3</div>
+                </div>
+              </div>
+
+              <div class="back">
+                <div class="tech-description">
+                  <p>
+                    CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata)
+                    é uma linguagem de estilo usada para descrever a
+                    apresentação de um documento escrito em HTML ou em XML.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-content">
+              <div class="front">
+                <div class="tech">
+                  <i class="fa-brands fa-square-js"></i>
+
+                  <div class="tech-name">JavaScript</div>
+                </div>
+              </div>
+
+              <div class="back">
+                <div class="tech-description">
+                  <p>
+                    O JavaScript é uma linguagem baseada em protótipos,
+                    multi-paradigma e dinâmica, suportando estilos de orientação
+                    a objetos, imperativos e declarativos (como por exemplo a
+                    programação funcional).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-content">
+              <div class="front">
+                <div class="tech">
+                  <i class="fa-brands fa-react"></i>
+
+                  <div class="tech-name">React</div>
+                </div>
+              </div>
+
+              <div class="back">
+                <div class="tech-description">
+                  <p>
+                    React é uma biblioteca front-end JavaScript de código aberto
+                    com foco em criar interfaces de usuário em páginas web.
+                    Popular por ser fácil de usar, altamente flexível e
+                    escalável.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
