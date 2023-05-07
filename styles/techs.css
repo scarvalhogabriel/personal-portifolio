@@ -1,3 +1,8 @@
+#techs header {
+  padding-top: calc(2.1rem + var(--nav-height));
+  margin-bottom: 4rem;
+}
+
 #techs header span {
   background-color: var(--dark-strong-bg);
   padding: 1rem 2rem;
@@ -8,6 +13,12 @@
 
   color: var(--dark-title);
   text-transform: uppercase;
+}
+
+#techs .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
 }
 
 #techs .card {
