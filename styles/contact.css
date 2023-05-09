@@ -1,9 +1,13 @@
-#home {
-  padding-block: 0;
-  padding-top: calc(4.1rem + var(--nav-height));
+#contact {
+  padding-bottom: calc(2.1rem + var(--nav-height));
 }
 
-#home header span {
+#contact header {
+  padding-top: calc(2.1rem + var(--nav-height));
+  margin-bottom: 4rem;
+}
+
+#contact header h4 {
   background-color: var(--dark-strong-bg);
   padding: 1rem 2rem;
 
@@ -13,21 +17,27 @@
 
   color: var(--dark-title);
   text-transform: uppercase;
+  font-weight: 400;
 }
 
-#home header h1 {
+#contact header h2 {
   font-size: 3.6rem;
   color: #fff;
   margin-top: 4rem;
   margin-bottom: 1rem;
 }
 
-#home header p {
-  font-size: 2rem;
+#contact .text-content .email {
   color: var(--dark-text);
+  font-size: 1.8rem;
 }
 
-#home a {
+#contact .text-content .email i {
+  color: var(--dark-title);
+  margin-right: 1.2rem;
+}
+
+#contact .text-content a:nth-child(2) {
   background: var(--dark-strong-bg);
   border-radius: 4rem;
   border: none;
@@ -46,21 +56,6 @@
   margin-block: 4rem;
 }
 
-#home a i {
+#contact .text-content a i {
   margin-right: 1.2rem;
-}
-
-#home img {
-  animation: image_animation 3s infinite;
-}
-
-@keyframes image_animation {
-  0%,
-  100% {
-    transform: translateY(-20px);
-  }
-
-  50% {
-    transform: translateY(0px);
-  }
 }
