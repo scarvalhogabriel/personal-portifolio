@@ -39,11 +39,15 @@
 }
 
 #projects img {
-  width: 90%;
-  height: 22rem;
-  border-radius: 1.6rem;
+  width: 14.5rem;
+  height: 19.5rem;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
   margin-inline: auto;
+  transition: transform 0.3s;
+}
+
+#projects img:hover {
+  transform: scale(1.05);
 }
 
 #projects .card h5 {
@@ -70,6 +74,11 @@
 #projects .card .links a {
   color: var(--dark-title);
   font-size: 2.4rem;
+  transition: color 0.3s;
+}
+
+#projects .card .links a:hover {
+  color: var(--dark-text);
 }
 
 #projects .card .links a:nth-child(1) {
