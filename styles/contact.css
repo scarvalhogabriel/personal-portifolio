@@ -59,3 +59,7 @@
 #contact .text-content a i {
   margin-right: 1.2rem;
 }
+
+#contact img {
+  animation: image_animation 3s infinite;
+}

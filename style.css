@@ -60,3 +60,28 @@ a {
   margin-inline: auto;
   padding-inline: 2.4rem;
 }
+
+#button-to-top {
+  background-color: var(--dark-title);
+  padding: 1rem;
+  border-radius: 100%;
+
+  color: var(--dark-strong-bg);
+  font-size: 1.8rem;
+
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateX(100%);
+  transition: 0.3s;
+}
+
+#button-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
