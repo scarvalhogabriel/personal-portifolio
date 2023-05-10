@@ -3,7 +3,7 @@
   padding-top: calc(4.1rem + var(--nav-height));
 }
 
-#home header span {
+#home header h4 {
   background-color: var(--dark-strong-bg);
   padding: 1rem 2rem;
 
@@ -44,6 +44,12 @@
   padding: 1.6rem 3.2rem;
 
   margin-block: 4rem;
+
+  transition: transform 0.2s;
+}
+
+#home a:hover {
+  transform: scale(1.05);
 }
 
 #home a i {
@@ -62,5 +68,31 @@
 
   50% {
     transform: translateY(0px);
+  }
+}
+
+/* =============== RESPONSIVE =============== */
+@media screen and (min-width: 1024px) {
+  #home .wrapper {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #home header {
+    text-align: left;
+  }
+
+  #home img {
+    width: 50%;
+  }
+
+  #home header h1 {
+    font-size: 4.2rem;
+  }
+
+  #home header p {
+    font-size: 2.3rem;
   }
 }

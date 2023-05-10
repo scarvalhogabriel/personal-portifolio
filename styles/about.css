@@ -2,7 +2,7 @@
   padding-top: calc(2.1rem + var(--nav-height));
 }
 
-#about header span {
+#about header h4 {
   background-color: var(--dark-strong-bg);
   padding: 1rem 2rem;
 
@@ -17,9 +17,6 @@
 #about img {
   height: 400px;
   border-radius: 3.6rem;
-
-  margin-top: 4rem;
-  margin-bottom: 1rem;
 }
 
 #about .about-paragraphs {
@@ -30,4 +27,26 @@
   font-size: 1.6rem;
   line-height: 150%;
   color: var(--dark-text);
+}
+
+/* =============== RESPONSIVE =============== */
+@media screen and (min-width: 1024px) {
+  #about .section_content {
+    display: flex;
+    align-items: center;
+  }
+
+  #about header {
+    margin-bottom: 4rem;
+  }
+
+  #about img {
+    height: 500px;
+  }
+
+  #about .about-paragraphs p {
+    font-size: 1.8rem;
+    line-height: 160%;
+    padding-left: 4rem;
+  }
 }

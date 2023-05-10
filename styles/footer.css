@@ -21,3 +21,10 @@ footer .social-links {
 footer .social-links a {
   color: var(--dark-text);
 }
+
+@media screen and (min-width: 1024px) {
+  footer .wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

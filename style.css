@@ -85,3 +85,14 @@ a {
   visibility: visible;
   transform: translateX(0);
 }
+
+/* =============== RESPONSIVE =============== */
+@media screen and (min-width: 1024px) {
+  body {
+    overflow: auto;
+  }
+
+  .wrapper {
+    width: min(112rem, 100%);
+  }
+}
