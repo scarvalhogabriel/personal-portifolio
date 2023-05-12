@@ -1,6 +1,5 @@
 #projects header {
   padding-top: calc(2.1rem + var(--nav-height));
-  margin-bottom: 4rem;
 }
 
 #projects header h4 {
@@ -23,7 +22,7 @@
 }
 
 #projects .card {
-  width: 29.9rem;
+  max-width: 29.9rem;
   height: 40.5rem;
 
   margin: auto;
@@ -91,7 +90,8 @@
 }
 
 #projects .last-card h5 {
-  margin-block: 1.8rem;
+  margin-bottom: 1.8rem;
+  margin-top: 4.2rem;
 }
 
 #projects .last-card i {
@@ -103,6 +103,9 @@
 #projects .last-card .loader {
   position: relative;
   width: 120px;
+
+  top: 20px;
+
   height: 90px;
   margin: 0 auto;
 }

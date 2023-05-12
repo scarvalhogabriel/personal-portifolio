@@ -1,6 +1,6 @@
 #home {
-  padding-block: 0;
   padding-top: calc(4.1rem + var(--nav-height));
+  height: 100vh;
 }
 
 #home header h4 {
@@ -18,8 +18,8 @@
 #home header h1 {
   font-size: 3.6rem;
   color: #fff;
+  margin-bottom: 1.5rem;
   margin-top: 4rem;
-  margin-bottom: 1rem;
 }
 
 #home header p {
@@ -27,7 +27,7 @@
   color: var(--dark-text);
 }
 
-#home a {
+#home .contact-btn {
   background: var(--dark-strong-bg);
   border-radius: 4rem;
   border: none;
@@ -46,6 +46,10 @@
   margin-block: 4rem;
 
   transition: transform 0.2s;
+}
+
+#home .social-links {
+  display: none;
 }
 
 #home a:hover {
@@ -73,6 +77,11 @@
 
 /* =============== RESPONSIVE =============== */
 @media screen and (min-width: 1024px) {
+  #home {
+    display: flex;
+    height: calc(100vh - var(--nav-height));
+  }
+
   #home .wrapper {
     display: flex;
     margin: 0 auto;
@@ -94,5 +103,20 @@
 
   #home header p {
     font-size: 2.3rem;
+  }
+
+  #home .social-links {
+    display: flex;
+    gap: 3.2rem;
+    font-size: 2.8rem;
+    margin-left: 0.7rem;
+  }
+
+  #home .social-links a {
+    color: var(--dark-text);
+  }
+
+  #home .social-links a:hover {
+    color: var(--dark-title);
   }
 }

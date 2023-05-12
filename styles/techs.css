@@ -21,7 +21,7 @@
 }
 
 #techs .card {
-  width: 29.9rem;
+  max-width: 29.9rem;
   height: 27.5rem;
 
   margin: auto;

@@ -30,6 +30,7 @@ nav button {
 
 nav.scroll {
   background-color: var(--dark-strong-bg);
+  transition: all 0.3s;
 }
 
 nav.scroll .logo {
@@ -121,4 +122,56 @@ body.menu-expanded .logo,
 body.menu-expanded button {
   position: relative;
   z-index: 100;
+}
+
+/* =============== RESPONSIVE =============== */
+@media screen and (min-width: 1024px) {
+  #navigation .wrapper * {
+    margin: 0;
+    padding: 0;
+    visibility: initial;
+    display: initial;
+    opacity: initial;
+    flex-direction: initial;
+    position: initial;
+    /* font-size: initial;
+    font-weight: initial; */
+    transform: initial;
+    /* color: initial; */
+    background-color: initial;
+    filter: initial;
+  }
+
+  #navigation .open-menu,
+  #navigation .close-menu,
+  #navigation .social-links {
+    display: none;
+  }
+
+  #navigation .menu ul li a {
+    font-size: 1.8rem;
+
+    margin-right: 2.8rem;
+
+    position: relative;
+  }
+
+  #navigation .menu ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+
+    bottom: -3px;
+    left: 0;
+
+    height: 2px;
+    width: 0px;
+
+    background-color: var(--dark-title);
+    transition: width 0.3s;
+  }
+
+  #navigation .menu ul li a:hover::after {
+    width: 100%;
+  }
 }

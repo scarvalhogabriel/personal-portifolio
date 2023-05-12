@@ -4,12 +4,13 @@
 
 #contact header {
   padding-top: calc(2.1rem + var(--nav-height));
-  margin-bottom: 4rem;
 }
 
 #contact header h4 {
   background-color: var(--dark-strong-bg);
   padding: 1rem 2rem;
+
+  margin-bottom: 4rem;
 
   display: inline-block;
 
@@ -23,8 +24,7 @@
 #contact header h2 {
   font-size: 3.6rem;
   color: #fff;
-  margin-top: 4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 #contact .text-content .email {

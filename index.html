@@ -7,9 +7,10 @@
     <title>Portifólio | Gabriel Carvalho</title>
     <link
       rel="shortcut icon"
-      href="./assets/page-icon.png"
+      href="./assets/page_icon.svg"
       type="image/x-icon"
     />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -24,7 +25,7 @@
     <link rel="stylesheet" href="./styles/techs.css" />
     <link rel="stylesheet" href="./styles/projects.css" />
     <link rel="stylesheet" href="./styles/contact.css" />
-    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/footer.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -140,12 +141,36 @@
           <h1>Gabriel Carvalho</h1>
           <p>Front-end Web Developer</p>
 
-          <a href="#contact">
+          <a href="#contact" class="contact-btn">
             <i class="fa-brands fa-whatsapp"></i> Entre em contato
           </a>
+
+          <ul class="social-links">
+            <li>
+              <a target="_blank" href="https://github.com/scarvalhogabriel">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/gabriel-carvalho-0098b5201/"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/gabriel.carvalho.37669"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+          </ul>
         </header>
 
-        <img src="./assets/coding_img.png"/>
+        <img src="./assets/coding_img.png" />
       </div>
     </section>
 
@@ -525,21 +550,24 @@
     <section id="contact">
       <div class="wrapper">
         <header>
-          <h4>Contatos 📞</h4>
+          <h4>Contato 📞</h4>
           <h2>Vamos conversar!</h2>
         </header>
 
         <div class="content">
           <div class="text-content">
             <div class="email">
-              <a href="mailto:scarvalho.gabriel@gmail.com"
+              <a href="mailto:scarvalho.gabriel@gmail.com" target="_blank"
                 ><i class="fa-solid fa-envelope"></i
               ></a>
 
               scarvalho.gabriel@gmail.com
             </div>
 
-            <a href="https://web.whatsapp.com/send?phone=5511983008881">
+            <a
+              href="https://web.whatsapp.com/send?phone=5511983008881"
+              target="_blank"
+            >
               <i class="fa-brands fa-whatsapp"></i> +55 (11) 98300-8881
             </a>
           </div>
@@ -576,8 +604,6 @@
             </a>
           </li>
         </ul>
-
-        </div>
       </div>
     </footer>
 
