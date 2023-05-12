@@ -22,10 +22,10 @@ Obrigado por visitar o meu portfólio!
 
 # 🗂 Seções do portifólio
 - **Home**: Apresentação pessoal.
-- **Sobre**: Continuação da minha apresentação pessoal e falo um pouco da minha trajetório acadêmica e profissional.
+- **Sobre**: Continuação da minha apresentação pessoal e falo um pouco da minha trajetória acadêmica e profissional.
 - **Tecnologias**: Tecnologias que tenho conhecimento.
 - **Projetos**: Alguns dos projetos desenvolvidos durante o processo de aprendizagem.
 - **Contato**: Seção com os principais meios de entrar em contato comigo.
 
 # 📃 Licença
-[MIT License]
+[MIT License](https://github.com/scarvalhogabriel/personal-portifolio/blob/main/LICENSE)
